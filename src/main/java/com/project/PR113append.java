@@ -1,8 +1,8 @@
 package com.project;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.OutputStreamWriter;
+import java.io.*;
+import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 
 public class PR113append {
 
@@ -16,9 +16,27 @@ public class PR113append {
 
     // Mètode que afegeix les frases al fitxer amb UTF-8 i línia en blanc final
     public static void afegirFrases(String camiFitxer) {
-        File arxius = new File(camiFitxer);
-        //StringBuilder sb = new StringBuilder()
+        File arxiu = new File(camiFitxer);
 
+        if (!arxiu.exists()){
+            try {
+                arxiu.createNewFile();
+            } catch (IOException e) {
+                System.out.println("No s'ha pogut crear l'arxiu");
+            }
+        }
+            try {
+
+                FileWriter fw = new FileWriter(camiFitxer, StandardCharsets.UTF_8, true);
+                fw.write("I can only show you the door\n");
+                fw.write("You're the one that has to walk through it\n");
+                fw.close();
+                System.out.println("S'han introduit les files correctament");
+            } catch (IOException e2) {
+                e2.printStackTrace();
+
+
+        }
 
     }
 }

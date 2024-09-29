@@ -24,7 +24,7 @@ public class PR110ReadFile {
         }catch (FileNotFoundException e1){
             System.err.println(e1.getMessage());
         }catch (Exception e2){
-            System.err.println("Error: "+e2);
+            System.err.println("Error: "+e2.getMessage());
         }
     }
 }

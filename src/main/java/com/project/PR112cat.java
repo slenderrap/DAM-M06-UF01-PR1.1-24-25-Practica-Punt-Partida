@@ -29,7 +29,8 @@ public class PR112cat {
 
             if (arxiu.isFile()){
                 String linea;
-                BufferedReader br= new BufferedReader(new InputStreamReader(new FileInputStream(arxiu.getPath()), StandardCharsets.UTF_8));
+                BufferedReader br= new BufferedReader(new InputStreamReader(new FileInputStream(arxiu.getPath()),
+                        StandardCharsets.UTF_8));
                 while ((linea = br.readLine())!=null){
                     System.out.println(linea);
                 }

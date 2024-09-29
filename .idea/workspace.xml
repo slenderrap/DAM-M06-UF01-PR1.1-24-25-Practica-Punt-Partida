@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c980f441-4600-4193-bff6-378872266277" name="Changes" comment="falta acabar el PR113" />
+    <list default="true" id="c980f441-4600-4193-bff6-378872266277" name="Changes" comment="falta acabar el PR113">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/PR110ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/PR110ReadFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/PR112cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/PR112cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/PR113append.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/PR113append.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/PR113sobreescriu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/PR113sobreescriu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/PR114linies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/PR114linies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/PR115cp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/PR115cp.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,12 +27,12 @@
     &quot;assignee&quot;: &quot;slenderrap&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/jpala4-ieti/DAM-M06-UF01-PR1.1-24-25-Practica-Punt-Partida.git&quot;,
-    &quot;accountId&quot;: &quot;74ac56fb-b905-4c49-98aa-5aae027801ec&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/slenderrap/DAM-M06-UF01-PR1.1-24-25-Practica-Punt-Partida",
+    "accountId": "db0a5bf8-4a7d-449b-8eb2-be7ecfbdfa39"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -35,21 +43,120 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.PR110ReadFile.executor": "Run",
+    "Application.PR113append.executor": "Run",
+    "Application.PR113sobreescriu.executor": "Run",
+    "Application.PR114linies.executor": "Run",
+    "Application.PR115cp.executor": "Run",
+    "JUnit.All in project-name.executor": "Run",
     "JUnit.PR110ReadFileTest.executor": "Run",
+    "JUnit.PR111FilesTest.executor": "Run",
+    "JUnit.PR112catTest.executor": "Run",
+    "JUnit.PR113FilesTest.executor": "Run",
+    "JUnit.PR114liniesTest.executor": "Run",
+    "JUnit.PR115cpTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/super/Escriptori/MP06/DAM-M06-UF01-PR1.1-24-25-Practica-Punt-Partida",
+    "last_opened_file_path": "C:/Users/orirr/OneDrive/Escritorio/DAM2/MP06 Acces a dades/UF1/DAM-M06-UF01-PR1.1-24-25-Practica-Punt-Partida",
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.PR115cpTest">
+    <configuration name="PR113append" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.project.PR113append" />
+      <module name="project-name" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PR113sobreescriu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.project.PR113sobreescriu" />
+      <module name="project-name" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PR113FilesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-name" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project" />
+      <option name="MAIN_CLASS_NAME" value="com.project.PR113FilesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PR114liniesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-name" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project" />
+      <option name="MAIN_CLASS_NAME" value="com.project.PR114liniesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PR115cpTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-name" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project" />
+      <option name="MAIN_CLASS_NAME" value="com.project.PR115cpTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="DAM-M06-UF01-PR1.1-24-25-Practica-Punt-Partida" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="DAM-M06-UF01-PR1.1-24-25-Practica-Punt-Partida" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PR115cpTest" />
+        <item itemvalue="JUnit.PR114liniesTest" />
+        <item itemvalue="JUnit.PR113FilesTest" />
+        <item itemvalue="Application.PR113append" />
+        <item itemvalue="Application.PR113sobreescriu" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
